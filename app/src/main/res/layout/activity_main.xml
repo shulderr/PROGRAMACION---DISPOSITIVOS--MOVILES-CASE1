@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/Titulo"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numeroUno"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numeroDos"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/total"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            >
+        </TextView>
+        <EditText
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            >
+        </EditText>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="150sp"
+            android:layout_height="80sp"
+            android:gravity="center"
+            android:text="@string/calculateMultiplicacion"
+            android:textSize="18sp"
+            android:textAlignment="center">
+        </Button>
+    </RelativeLayout>
+</LinearLayout>
+

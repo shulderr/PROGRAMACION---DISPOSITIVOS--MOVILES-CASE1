@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">First_app</string>
+    <string name="Titulo">Calculator</string>
+    <string name="numeroUno">n1</string>
+    <string name="numeroDos">n2</string>
+    <string name="multiplicador">mul</string>
+    <string name="total">Total</string>
+    <string name="calculateMultiplicacion">Calculate</string>
+</resources>
